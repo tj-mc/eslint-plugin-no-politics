@@ -21,3 +21,35 @@ module.exports = {
   },
 };
 ```
+
+## Adding more banned names
+```javascript
+module.exports = {
+  plugins: ["no-political-names"],
+  rules: {
+    "no-political-names/no-political-names": [
+      "error",
+      {
+        bannedNames: ["Trump", "Hitler", "Stalin"],
+      },
+    ],
+  },
+};
+
+```
+
+## Adding allowed names - overrides ban list
+```javascript
+module.exports = {
+  plugins: ["no-political-names"],
+  rules: {
+    "no-political-names/no-political-names": [
+      "error",
+      {
+        allowedNames: ["Macron", "Rudd", "Hawke"],
+      },
+    ],
+  },
+};
+
+```
