@@ -1,5 +1,5 @@
 module.exports = {
     rules: {
-        "no-politics": require("./lib/rules/no-political-names"),
+        "no-political-names": require("./lib/rules/no-political-names"),
     },
 };
