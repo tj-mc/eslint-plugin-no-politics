@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-politics",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Prevent political figures from appearing in your codebase",
   "main": "index.js",
   "scripts": {
