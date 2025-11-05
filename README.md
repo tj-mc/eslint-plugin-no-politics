@@ -30,7 +30,7 @@ module.exports = {
     "no-political-names/no-political-names": [
       "error",
       {
-        bannedNames: ["Trump", "Hitler", "Stalin"],
+        bannedNames: ["Name"],
       },
     ],
   },
@@ -46,7 +46,7 @@ module.exports = {
     "no-political-names/no-political-names": [
       "error",
       {
-        allowedNames: ["Macron", "Rudd", "Hawke"],
+        allowedNames: ["Name"],
       },
     ],
   },
